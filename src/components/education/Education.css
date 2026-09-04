@@ -1,0 +1,18 @@
+@media (max-width: 720px) {
+  .education-heading,
+  .education-columns {
+    display: block;
+  }
+
+  .education-heading > p {
+    margin-top: 24px;
+  }
+
+  .education-columns {
+    margin-top: 45px;
+  }
+
+  .education-columns > div + div {
+    margin-top: 45px;
+  }
+}
