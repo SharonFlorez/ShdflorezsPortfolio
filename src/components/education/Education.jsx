@@ -25,7 +25,6 @@ function Education({ education, courses, ui }) {
                 <div>
                   <h3>{item.title}</h3>
                   <p>{item.institution}</p>
-                  {item.grade && <small>{item.grade}</small>}
                 </div>
               </article>
             ))}

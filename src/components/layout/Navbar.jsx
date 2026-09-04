@@ -10,7 +10,7 @@ function Navbar({
   const links = [
     ["about", ui.nav.about],
     ["skills", ui.nav.skills],
-    ['experience', ui.nav.experience],
+    // ['experience', ui.nav.experience],
     ["education", ui.nav.education],
     ["projects", ui.nav.projects],
     ["contact", ui.nav.contact],

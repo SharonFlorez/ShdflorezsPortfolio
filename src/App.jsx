@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getProfile } from './services/profileService'
 import { getSkills } from './services/skillService'
-import { getExperiences } from './services/experienceService'
+// import { getExperiences } from './services/experienceService'
 import { getProjects } from './services/projectService'
 import { getSocialLinks } from './services/socialService'
 import { getUi } from './services/i18nService'
@@ -12,7 +12,7 @@ import Footer from './components/layout/Footer'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
-import Experience from './components/experience/Experience'
+// import Experience from './components/experience/Experience'
 import Education from './components/education/Education'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
@@ -25,7 +25,7 @@ function App() {
   const ui = getUi(language)
   const profile = getProfile(language)
   const skills = getSkills(language)
-  const experiences = getExperiences(language)
+  // const experiences = getExperiences(language)
   const education = getEducation(language)
   const courses = getCourses()
   const projects = getProjects(language)
@@ -51,8 +51,8 @@ function App() {
       <main>
         <Hero profile={profile} ui={ui.hero} />
         <About profile={profile} ui={ui.about} />
-        <Skills skills={skills} ui={ui.skills} />
-        <Experience experiences={experiences} ui={ui.experience} />
+        <Skills skillGroups={skills} ui={ui.skills} />
+        {/* <Experience experiences={experiences} ui={ui.experience} /> */}
         <Education education={education} courses={courses} ui={ui.education} />
         <Projects projects={projects} ui={ui.projects} />
         <Contact profile={profile} socialLinks={socialLinks} ui={ui.contact} />

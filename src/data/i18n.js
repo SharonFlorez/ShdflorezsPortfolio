@@ -14,8 +14,8 @@ export const ui = {
       talk: "Hablemos",
     },
     hero: {
-      title: "Diseño y código para crear",
-      accent: "lo que sigue.",
+      title: "Interfaces que conectan,",
+      accent: "código que transforma.",
       projects: "Ver proyectos",
       contact: "Contactar",
       scroll: "Desplázate para explorar",
@@ -35,6 +35,26 @@ export const ui = {
       accent: "hacerlo real.",
       description:
         "Una selección de tecnologías que uso para pasar de la primera idea a una experiencia lista para crecer.",
+      categories: [
+        {
+          key: "frontend",
+          title: "Frontend - Diseño",
+          description: "Tecnologías principales para crear experiencias web.",
+        },
+        {
+          key: "backend",
+          title: "Conocimiento complementario",
+          description:
+            "Tecnologías backend que complementan el trabajo frontend.",
+        },
+        {
+          key: "other",
+          title: "Otros",
+          description: "Herramientas y metodologías que apoyan el desarrollo.",
+        },
+      ],
+      previous: "Anterior",
+      next: "Siguiente",
     },
     experience: {
       label: "Experiencia",
@@ -90,8 +110,8 @@ export const ui = {
       talk: "Let's talk",
     },
     hero: {
-      title: "Design and code to create",
-      accent: "what comes next.",
+      title: "Interfaces that connect,",
+      accent: "code that transforms.",
       projects: "View projects",
       contact: "Get in touch",
       scroll: "Scroll to explore",
@@ -111,6 +131,25 @@ export const ui = {
       accent: "make it real.",
       description:
         "A selection of technologies I use to turn a first idea into an experience ready to grow.",
+      categories: [
+        {
+          key: "frontend",
+          title: "Frontend - Design",
+          description: "Core technologies for building web experiences.",
+        },
+        {
+          key: "backend",
+          title: "Complementary knowledge",
+          description: "Backend technologies that complement frontend work.",
+        },
+        {
+          key: "other",
+          title: "Other",
+          description: "Tools and methodologies supporting development.",
+        },
+      ],
+      previous: "Previous",
+      next: "Next",
     },
     experience: {
       label: "Experience",

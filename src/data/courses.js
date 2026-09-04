@@ -6,9 +6,10 @@ export const courses = [
   },
   {
     provider: "React JS + Next JS 13",
-    title: "Learn from Scratch!",
+    title: "",
     platform: "Udemy",
   },
   { provider: "Learn UI Design with Figma", title: "", platform: "Udemy" },
   { provider: "UX/UI Design", title: "", platform: "Coderhouse" },
+  { provider: "ReactJS", title: "", platform: "Coderhouse" },
 ];

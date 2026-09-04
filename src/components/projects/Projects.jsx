@@ -7,7 +7,7 @@ function Projects({ projects, ui }) {
     : projects.filter((project) => project.featured);
   return (
     <section className="section projects-section" id="projects">
-      <div className="section-label">0/ {ui.label}</div>
+      <div className="section-label">/ {ui.label}</div>
       <div className="projects-heading">
         <h2>
           {ui.title}

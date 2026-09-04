@@ -1,8 +1,8 @@
-import heroImage from "../assets/hero.png";
+import heroImage from "../assets/shdflorezs.png";
 
 export const profile = {
   name: "Sharon Daniela Florez Sandoval",
-  shortName: "Sharon",
+  shortName: "Shdflorezs",
   role: "Frontend Developer",
   location: "Colombia",
   image: heroImage,
@@ -11,12 +11,12 @@ export const profile = {
   email: "shdflorezs35@gmail.com",
   availability: { es: "", en: "" },
   intro: {
-    es: "Desarrolladora Frontend con cinco años de experiencia en la construcción de aplicaciones web escalables, mantenibles y orientadas a una excelente experiencia de usuario.",
-    en: "Frontend Developer with five years of experience building scalable and maintainable web applications focused on delivering an excellent user experience.",
+    es: "Desarrolladora Frontend enfocada en crear aplicaciones web escalables, mantenibles y centradas en ofrecer experiencias de usuario intuitivas y funcionales.",
+    en: "Frontend Developer focused on building scalable, maintainable web applications that deliver intuitive and functional user experiences.",
   },
   bio: {
-    es: "Cuento con sólidos conocimientos en JavaScript, TypeScript, HTML5, CSS3 y Angular, incluyendo AngularJS y diferentes versiones del framework. Tengo experiencia con Tailwind CSS, PrimeNG, Bootstrap, Angular Material y ReactJS. También cuento con habilidades en análisis de datos y optimización de procesos.",
-    en: "I have a strong foundation in JavaScript, TypeScript, HTML5, CSS3, and Angular, including AngularJS and multiple versions of the framework. I have experience with Tailwind CSS, PrimeNG, Bootstrap, Angular Material, and ReactJS. I also have skills in data analysis and process optimization.",
+    es: "Cuento con sólidos conocimientos en JavaScript, TypeScript, HTML, CSS y Angular, incluyendo AngularJS y diferentes versiones del framework. Tengo experiencia con Tailwind CSS, PrimeNG, Bootstrap, Angular Material y ReactJS. También cuento con habilidades en análisis de datos y optimización de procesos.",
+    en: "I have a strong foundation in JavaScript, TypeScript, HTML, CSS, and Angular, including AngularJS and multiple versions of the framework. I have experience with Tailwind CSS, PrimeNG, Bootstrap, Angular Material, and ReactJS. I also have skills in data analysis and process optimization.",
   },
   strengths: {
     es: [
