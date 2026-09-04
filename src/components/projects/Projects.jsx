@@ -29,17 +29,27 @@ function Projects({ projects, ui }) {
             key={project.id}
           >
             <div className="project-art">
-              <span className="project-index">0{index + 1}</span>
-              <div className="art-window">
-                <span></span>
-                <span></span>
-                <span></span>
-                <div className="art-lines">
-                  <i></i>
-                  <i></i>
-                  <i></i>
-                </div>
-              </div>
+              {project.image ? (
+                <img
+                  className="project-image"
+                  src={project.image}
+                  alt={project.title}
+                />
+              ) : (
+                <>
+                  <span className="project-index">0{index + 1}</span>
+                  <div className="art-window">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className="art-lines">
+                      <i></i>
+                      <i></i>
+                      <i></i>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
             <div className="project-info">
               <div>
